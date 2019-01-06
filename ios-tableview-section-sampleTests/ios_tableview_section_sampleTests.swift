@@ -2,8 +2,8 @@
 //  ios_tableview_section_sampleTests.swift
 //  ios-tableview-section-sampleTests
 //
-//  Created by Manami Ichikawa on 2019/01/06.
-//  Copyright © 2019 Manami Ichikawa. All rights reserved.
+//  Created on 2019/01/06.
+//  Copyright © 2019 . All rights reserved.
 //
 
 import XCTest

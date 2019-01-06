@@ -13,6 +13,8 @@
 		38AB6A8321E1E44F00D1D93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AB6A8221E1E44F00D1D93C /* Assets.xcassets */; };
 		38AB6A8621E1E44F00D1D93C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AB6A8421E1E44F00D1D93C /* LaunchScreen.storyboard */; };
 		38AB6A9121E1E44F00D1D93C /* ios_tableview_section_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AB6A9021E1E44F00D1D93C /* ios_tableview_section_sampleTests.swift */; };
+		38AB6A9D21E1E49E00D1D93C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AB6A9B21E1E49E00D1D93C /* TableViewCell.swift */; };
+		38AB6A9E21E1E49E00D1D93C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AB6A9C21E1E49E00D1D93C /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		38AB6A8C21E1E44F00D1D93C /* ios-tableview-section-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-tableview-section-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AB6A9021E1E44F00D1D93C /* ios_tableview_section_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_tableview_section_sampleTests.swift; sourceTree = "<group>"; };
 		38AB6A9221E1E44F00D1D93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AB6A9B21E1E49E00D1D93C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		38AB6A9C21E1E49E00D1D93C /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				38AB6A8221E1E44F00D1D93C /* Assets.xcassets */,
 				38AB6A8421E1E44F00D1D93C /* LaunchScreen.storyboard */,
 				38AB6A8721E1E44F00D1D93C /* Info.plist */,
+				38AB6A9B21E1E49E00D1D93C /* TableViewCell.swift */,
+				38AB6A9C21E1E49E00D1D93C /* TableViewCell.xib */,
 			);
 			path = "ios-tableview-section-sample";
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38AB6A8621E1E44F00D1D93C /* LaunchScreen.storyboard in Resources */,
+				38AB6A9E21E1E49E00D1D93C /* TableViewCell.xib in Resources */,
 				38AB6A8321E1E44F00D1D93C /* Assets.xcassets in Resources */,
 				38AB6A8121E1E44D00D1D93C /* Main.storyboard in Resources */,
 			);
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AB6A9D21E1E49E00D1D93C /* TableViewCell.swift in Sources */,
 				38AB6A7E21E1E44D00D1D93C /* ViewController.swift in Sources */,
 				38AB6A7C21E1E44D00D1D93C /* AppDelegate.swift in Sources */,
 			);
